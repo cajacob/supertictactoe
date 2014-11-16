@@ -7,8 +7,12 @@
 <html>
   <head>
   	<link rel="stylesheet" type="text/css" href="home.css">
+  	<script src="board.js"></script>
   </head>
-  <body>
+  <body onLoad=initialize()>
+		<canvas id="canvas_1" width="476" height="476">
+			Canvas Tag not supported
+		</canvas>
  	<h1>Super Tic-Tac-Toe</h1>
 	<div id="playerPage">
  	<div id="playerTab">

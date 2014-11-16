@@ -15,10 +15,16 @@
     <servlet-name>greetServlet</servlet-name>
     <url-pattern>/supertictactoe/greet</url-pattern>
   </servlet-mapping>
-  
+  	<servlet>
+		<servlet-name>Projectpage</servlet-name>
+		<servlet-class>projectpage.ProjectpageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Projectpage</servlet-name>
+		<url-pattern>/projectpage</url-pattern>
+	</servlet-mapping>
   <!-- Default page to serve -->
-  <welcome-file-list>
-    <welcome-file>SuperTicTacToe.html</welcome-file>
-  </welcome-file-list>
-
+	<welcome-file-list>
+		<welcome-file>home.jsp</welcome-file>
+	</welcome-file-list>
 </web-app>
