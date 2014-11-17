@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("million-tales.jpg");
+    background-image: url("million-tales.jpg"); 
 	
 }
 
@@ -53,7 +53,7 @@ p1{
 
 }
 #playerPage {
-	width: 600px;
+	width: 800px;
 	position:relative;
 	margin: -240px auto 0 auto;
 	padding: 220px 22px 0 22px;
@@ -69,11 +69,12 @@ p1{
 
   #gamePlatform  {
 	 background-color: lightgrey;
-    width: 300px;
-    height: 300px;
+    width: 476px;
+    height: 476px;
     padding: 25px;
     border: 25px white;
     float: right;
+
 }
 
   #gameButtons  {
