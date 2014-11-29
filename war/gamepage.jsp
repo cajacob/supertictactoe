@@ -30,5 +30,10 @@
 
 	</div>
  	</div>
+ 	<img id="tic-tac-x" src="images/tic-tac-x.png" alt="Tic-Tac-X" width="40" height="40" hidden="true">
+    <img id="tic-tac-o" src="images/tic-tac-o.png" alt="Tic-Tac-O" width="40" height="40" hidden="true">
+     <img id="big-x" src="images/big-x.png" alt="Big-X" width="100" height="100" hidden="true">
+    <img id="big-o" src="images/big-o.png" alt="Big-O" width="100" height="100" hidden="true">
+    
   </body>
 </html>
